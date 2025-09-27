@@ -1,0 +1,88 @@
+
+INTERPRETACIÓN DE VISUALIZACIONES
+Universidad Yachay Tech - Maestría en Ciencia de Datos
+=====================================================
+
+VISUALIZACIÓN 1: ANÁLISIS TEMPORAL
+====================================
+
+
+Ingreso Mensual:
+• Clara estacionalidad con pico masivo en noviembre-diciembre (temporada navideña)
+• Patrón descendente enero-febrero (post-navidad)
+• Sugiere negocio altamente dependiente de compras estacionales
+
+Patrón Semanal:
+• Días laborales (mar-jue) muestran mayor actividad transaccional
+• Actividad significativamente reducida en fines de semana
+
+Heatmap Temporal:
+• Actividad concentrada en horario comercial británico 9AM-5PM  
+• Picos de intensidad martes-jueves entre 11AM-2PM
+ 
+
+Distribución Geográfica:
+• Reino Unido domina completamente con >80% de las transacciones
+• Concentración geográfica indica dependencia de mercado doméstico
+
+VISUALIZACIÓN 2: PRODUCTOS Y CLIENTES
+=======================================
+
+Distribución de Precios:
+• Mayoría de productos concentrados en rango £0.50-£5.00 
+• Distribución sesgada hacia precios económicos con cola larga hacia precios altos
+
+
+Top Productos Más Vendidos:
+• Dominan artículos navideños y decorativos estacionales
+• Artículos específicos de temporada en top ventas confirman estacionalidad del negocio
+
+
+Análisis (Frecuencia vs Monetario):
+• Concentración de clientes de alto valor en frecuencias bajas (compras ocasionales grandes)
+• Mayoría son compradores de bajo valor y baja frecuencia
+
+
+Análisis por Categoría de Precio:
+• Productos económicos generan mayor volumen de transacciones
+• Productos premium contribuyen desproporcionadamente al margen
+
+
+VISUALIZACIÓN 3: ANÁLISIS PATRONESs
+===================================
+
+
+Estacionalidad Normalizada:
+• Todos los métricas (Ingresos, clientes, transacciones) siguen patrón estacional similar
+• Noviembre-diciembre concentran picos en todas las dimensiones
+• Enero-febrero representan valle crítico en todas las métricas
+
+Top 8 Países por Número de Clientes:
+• Dominancia del Reino Unido  como mercado principal y más importante para el negocio.
+• Mercados secundarios significativos Alemania, Francia y España 
+
+Análisis Fines de semana vs Días laborables:
+• Días laborales dominan completamente 
+
+Distribución de Valores de Transacciones:
+• Sesgo hacia valores bajos, la distribución muestra que la mayoría de las transacciones son de valor bajo a moderado 
+• Media: £479.56 - Valor promedio de las transacciones
+• Mediana: £302.57 - Punto donde el 50% de las transacciones son menores y 50% mayores
+
+CONCLUSIONES  
+=============================
+
+1. DEPENDENCIA ESTACIONAL CRÍTICA:
+   • 60%+ del ingreso anual concentrado en Nov-Dic
+   • Necesidad urgente de productos y estrategias anti-estacionales
+
+2. CONCENTRACIÓN GEOGRÁFICA LIMITANTE:
+   • Mercado UK representa >80% pero tiene límites de crecimiento
+   • Oportunidades internacionales masivas sin explotar
+
+3. SEGMENTACIÓN DE CLIENTES CLARA PERO SUBEXPLOTADA:
+   • Base de clientes diversa con oportunidades de personalización
+
+
+La combinación de análisis temporal y geográfico proporciona
+una base para decisiones informadas y medibles.

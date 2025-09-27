@@ -1,0 +1,37 @@
+
+REPORTE DE ANÁLISIS EXPLORATORIO DE DATOS (EDA)
+Universidad Yachay Tech - Maestría en Ciencia de Datos
+Dataset: Online Retail
+========================================================
+
+FECHA DE ANÁLISIS: 2025-09-26 22:32:55
+
+1. RESUMEN EJECUTIVO
+====================
+Total de registros: 392,692
+Clientes únicos: 4,338
+Productos únicos: 3,665
+Ingreso total: £8,887,208.89
+Período de datos: 2010-12-01 08:26:00 - 2011-12-09 12:50:00
+
+2. CONCLUSIONES PRINCIPALES
+========================
+• Negocio altamente estacional con picos navideños
+• Mercado concentrado en Reino Unido (88.9% de transacciones)
+• Horario comercial 9AM-5PM
+
+
+3. CALIDAD DE DATOS
+===================
+Completitud: 100.0%
+Consistencia: High
+Duplicados: 0
+Outliers: Presentes
+
+4. METADATA 
+====================
+Tamaño del dataset: 121.9 MB
+Granularidad: Transaction line level
+Tipo de negocio: E-commerce
+Cobertura geográfica: United Kingdom + International
+

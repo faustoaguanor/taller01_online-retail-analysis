@@ -1,0 +1,98 @@
+
+
+
+DOCUMENTACIÓN - TALLER CIENCIA DE DATOS
+=================================================
+
+PROCESAMIENTO DE DATOS:
+
+1. FUENTE DE DATOS:
+   • Dataset: Online Retail (UCI ML Repository)
+   • Formato original: Excel (.xlsx)
+   • Método de carga: Manual (pd.read_excel) 
+   • Registros finales procesados: 392,692
+   • Período: 2010-12-01 08:26:00 - 2011-12-09 12:50:00
+
+2. PROCESO DE LIMPIEZA APLICADO:
+   • Eliminación de CustomerID nulos (análisis de comportamiento)
+   • Eliminación de Description nulos (productos categorizables)
+   • Filtrado de Quantity <= 0 (devoluciones y errores)
+   • Filtrado de UnitPrice <= 0 (promociones especiales)
+   • Eliminación de registros duplicados exactos
+
+
+3. VARIABLES DERIVADAS CREADAS:
+   Variables disponibles en el dataset: 6/6
+   
+   Variables implementadas:
+   * TotalPrice
+    * Month
+    * Hour
+    * DayOfWeek
+    * IsWeekend
+    * PriceCategory
+
+
+4. ARQUITECTURA DE DATOS:
+   • Base de datos: SQLite (data/online_retail.db)
+   • Tabla principal: online_retail_clean
+   • Método de guardado: Chunks de 1,000 registros (límite SQL variables)
+   • Índices optimizados: CustomerID, InvoiceNo, InvoiceDate, Country, StockCode
+
+METODOLOGÍA DE ANÁLISIS:
+
+1. ANÁLISIS EXPLORATORIO:
+   • Análisis univariado de variables clave
+   • Análisis temporal usando Month, Hour, DayOfWeek (mes, hora, día de la semana)
+   • Segmentación clientes  
+   • Análisis de patrones días de la semana
+   • Análisis geográfico por Country (país)
+   • Segmentación de productos por PriceCategory (categoría del precio)
+
+2. TÉCNICAS DE VISUALIZACIÓN IMPLEMENTADAS:
+   • Análisis de tiempo  
+   • Heatmaps (patrones día×hora)
+   • Análisis comparativo días de la semana 
+
+3. STACK TECNOLÓGICO:
+   • pandas: Manipulación y análisis de datos
+   • matplotlib/seaborn: Visualizaciones 
+   • SQLite3: Almacenamiento con chunks optimizados
+   • numpy: Operaciones numéricas eficientes
+   • scipy: Análisis estadístico 
+ 
+
+REQUERIMIENTOS TÉCNICOS:
+• Python 3.8+
+• pandas, numpy, matplotlib, seaborn, scipy
+• SQLite3 (incluido en Python)
+
+
+
+ARCHIVOS ENTREGABLES GENERADOS:
+================================
+DATABASE:
+• data/online_retail.db - Base de datos SQLite optimizada
+
+VISUALIZACIONES:
+• output/visualizacion_1_analisis_temporal.png
+• output/visualizacion_2_productos_clientes.png  
+• output/visualizacion_3_analisis_avanzado.png
+
+REPORTES Y ANÁLISIS:
+• output/eda_report.txt - Análisis exploratorio exhaustivo
+• output/interpretacion_visualizaciones.txt - Narrativa de gráficos
+• output/reporte_final_online_retail.txt - Este reporte integrado
+• output/project_metadata.json - Metadata programática para integración
+
+CÓDIGO FUENTE MODULAR:
+• main.py - Orquestador principal del pipeline
+• src/adquisicion_datos.py - Módulo de adquisición y limpieza
+• src/analisis_exploratorio.py - Módulo de análisis exploratorio
+• src/visualizacion.py - Módulo de visualizaciones avanzadas  
+• src/utils.py - Utilidades y generación de reportes
+
+
+Reporte generado: 2025-09-26 22:33:12
+Universidad Yachay Tech - Maestría en Ciencia de Datos  
+Curso: Fundamentos de Ciencia de Datos

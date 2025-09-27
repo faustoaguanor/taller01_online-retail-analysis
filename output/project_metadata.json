@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "name": "Online Retail Dataset Analysis",
+    "university": "Universidad Yachay Tech",
+    "course": "Maestría en Ciencia de Datos",
+    "subject": "Fundamentos de Ciencia de Datos",
+    "analysis_date": "2025-09-26T22:33:12.151127",
+    "version": "1.0"
+  },
+  "dataset_info": {
+    "source": "UCI ML Repository",
+    "original_records": 392692,
+    "final_records": 392692,
+    "columns": [
+      "InvoiceNo",
+      "StockCode",
+      "Description",
+      "Quantity",
+      "InvoiceDate",
+      "UnitPrice",
+      "CustomerID",
+      "Country",
+      "TotalPrice",
+      "Month",
+      "Hour",
+      "DayOfWeek",
+      "IsWeekend",
+      "PriceCategory"
+    ],
+    "date_range": {
+      "start": "2010-12-01 08:26:00",
+      "end": "2011-12-09 12:50:00",
+      "days": 373
+    }
+  },
+  "business_metrics": {
+    "total_transactions": 392692,
+    "total_revenue": 8887208.894000001,
+    "unique_customers": 4338,
+    "unique_products": 3665,
+    "unique_invoices": 18532,
+    "avg_transaction_value": 479.56016047917126,
+    "avg_items_per_transaction": 278.00571983595944,
+    "avg_revenue_per_customer": 2048.6880806823424,
+    "business_days": 373,
+    "avg_daily_revenue": 23826.297302949064,
+    "top_10_customers_revenue": 1537659.2100000002,
+    "top_10_customers_percent": 17.30193616848723
+  },
+  "files_generated": {
+    "database": "data/online_retail.db",
+    "visualizations": [
+      "output/visualizacion_1_analisis_temporal.png",
+      "output/visualizacion_2_productos_clientes.png",
+      "output/visualizacion_3_analisis_patrones.png"
+    ],
+    "reports": [
+      "output/eda_report.txt",
+      "output/reporte_final_online_retail.txt",
+      "output/interpretacion_visualizaciones.txt"
+    ]
+  },
+  "quality_assessment": {
+    "completeness_score": 1.0,
+    "duplicate_records": 0,
+    "data_consistency": "High",
+    "outliers_present": true,
+    "data_freshness": "Historical"
+  }
+}
