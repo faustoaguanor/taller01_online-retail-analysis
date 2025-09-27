@@ -1,4 +1,4 @@
-# 📊 Online Retail Dataset Analysis - Complete Data Science Workflow
+# 📊 Online Retail Dataset Analysis - Taller 01 
 
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-1.3+-green?style=for-the-badge&logo=pandas)
@@ -118,8 +118,8 @@ python src/visualizations.py
 | Archivo | Descripción | Contenido |
 |---------|-------------|-----------|
 | `eda_report.txt` | Análisis exploratorio completo | Estadísticas, metadata, insights por campo |
-| `interpretacion_visualizaciones.txt` | Explicación de los gráficos | 
-| `reporte_final_online_retail.txt` | Resumen |
+| `interpretacion_visualizaciones.txt` | Explicación de los gráficos | Descripción e interpretación de los datos |
+| `reporte_final_online_retail.txt` | Resumen | Contiene principales hallazgos encontrados en el taller |
 | `project_metadata.json` | Metadata | Métricas, configuración, información técnica |
 
 ---
@@ -189,9 +189,12 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.m
 
 ## 📊 Estadísticas del Proyecto
 
-![GitHub repo size](https://img.shields.io/github/repo-size/tu_usuario/taller01_online-retail-analysis)
-![GitHub last commit](https://img.shields.io/github/last-commit/tu_usuario/taller01_online-retail-analysis)
-![GitHub issues](https://img.shields.io/github/issues/tu_usuario/taller01_online-retail-analysis)
-![GitHub stars](https://img.shields.io/github/stars/tu_usuario/taller01_online-retail-analysis)
+![GitHub repo size](https://img.shields.io/github/repo-size/faustoaguanor/taller01_online-retail-analysis)
+![GitHub last commit](https://img.shields.io/github/last-commit/faustoaguanor/taller01_online-retail-analysis)
+![GitHub issues](https://img.shields.io/github/issues/faustoaguanor/taller01_online-retail-analysis)
+![GitHub stars](https://img.shields.io/github/stars/faustoaguanor/taller01_online-retail-analysis)
 
 ---
+
+## Referencias
+- Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33.
