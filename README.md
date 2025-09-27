@@ -101,12 +101,12 @@ python src/visualizations.py
 - Revenue mensual con tendencia estacional
 - Patrones semanales de transacciones  
 - Heatmap de intensidad horaria por día
-- Top países por revenue total
+- Top países por ingreso total
 
 #### 2️⃣ **Análisis de Productos y Clientes**
 - Distribución de precios con análisis estadístico
 - Top productos más vendidos por cantidad
-- Análisis RFM (Recency, Frequency, Monetary)
+- Análisis Frecuencia
 - Segmentación por categorías de precio
 
 #### 3️⃣ **Análisis Avanzado - Correlaciones y Pareto**
@@ -124,7 +124,7 @@ python src/visualizations.py
 
 ---
 
-## 🎯 Insights Principales Descubiertos
+## 🎯 Conclusione Principales Descubiertos
 
 ### 📅 **1. Estacionalidad Extrema**
 - **60%+ del ingreso** concentrado en Nov-Dic
