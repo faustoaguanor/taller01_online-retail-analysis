@@ -140,7 +140,7 @@ python src/visualizations.py
 - **Base diversa:** Oportunidades de personalización
 - **Oportunidad:** Programa para retención de clientes top
 
-### ⏰ **4. Patrones Operacionales B2B**
+### ⏰ **4. Patrones de Operación**
 - **Horario comercial:** 9AM-5PM GMT concentra actividad
 - **Días laborales:** 85%+ del ingreso semanal
 - **Oportunidad:** Activación de mercado los fines de semana
